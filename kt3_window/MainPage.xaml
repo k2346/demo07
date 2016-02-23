@@ -7,19 +7,27 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.516,0.55">
-        <TextBox x:Name="ikkunanLeveysTextBox" HorizontalAlignment="Left" Margin="263,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
-        <TextBlock x:Name="leveysTextBlock" HorizontalAlignment="Left" Margin="126,157,0,0" TextWrapping="Wrap" Text="Ikkunan leveys (L):" VerticalAlignment="Top"/>
-        <TextBox x:Name="ikkunanKorkeusTextBox" HorizontalAlignment="Left" Margin="263,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
-        <TextBlock x:Name="korkeusTextBlock" HorizontalAlignment="Left" Margin="126,247,0,0" TextWrapping="Wrap" Text="Ikkunan korkeus (H):" VerticalAlignment="Top"/>
-        <TextBox x:Name="karmipuuleveystextBox" HorizontalAlignment="Left" Margin="263,296,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
-        <TextBlock x:Name="karmipuunleveystextBlock" HorizontalAlignment="Left" Margin="126,337,0,0" TextWrapping="Wrap" Text="Karmipuun leveys (W:):" VerticalAlignment="Top"/>
-        <Button x:Name="Laskebutton" Content="Laske" HorizontalAlignment="Left" Margin="653,331,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="ikkunaPAtextBox" HorizontalAlignment="Left" Margin="997,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="147"/>
-        <TextBlock x:Name="ikkunanPatextBlock" HorizontalAlignment="Left" Margin="871,100,0,0" TextWrapping="Wrap" Text="Ikkunan pinta-ala:" VerticalAlignment="Top"/>
-        <TextBox x:Name="lasinPAtextBox" HorizontalAlignment="Left" Margin="997,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="147"/>
-        <TextBlock x:Name="lasinPAtextBlock" HorizontalAlignment="Left" Margin="871,161,0,0" TextWrapping="Wrap" Text="Lasin pinta-ala:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="karminpiiritextBlock" HorizontalAlignment="Left" Margin="871,228,0,0" TextWrapping="Wrap" Text="Karmin piiri:" VerticalAlignment="Top"/>
-        <TextBox x:Name="karminpiiritextBox" HorizontalAlignment="Left" Margin="997,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="27" Width="144"/>
+    <Grid RenderTransformOrigin="0.516,0.55">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF002138" Offset="0"/>
+                <GradientStop Color="#FF0AFFF4" Offset="1"/>
+                <GradientStop Color="#FF002138" Offset="0.05"/>
+                <GradientStop Color="#FF025665" Offset="0.28"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="leveysTextBox" HorizontalAlignment="Left" Margin="337,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
+        <TextBlock x:Name="leveysTextBlock" HorizontalAlignment="Left" Margin="152,161,0,0" TextWrapping="Wrap" Text="Ikkunan leveys (L):" VerticalAlignment="Top"/>
+        <TextBox x:Name="korkeusTextBox" HorizontalAlignment="Left" Margin="337,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
+        <TextBlock x:Name="korkeusTextBlock" HorizontalAlignment="Left" Margin="152,251,0,0" TextWrapping="Wrap" Text="Ikkunan korkeus (H):" VerticalAlignment="Top"/>
+        <TextBox x:Name="karmitextBox" HorizontalAlignment="Left" Margin="337,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
+        <TextBlock x:Name="karmitextBlock" HorizontalAlignment="Left" Margin="152,341,0,0" TextWrapping="Wrap" Text="Karmipuun leveys (W:):" VerticalAlignment="Top"/>
+        <Button x:Name="Laskebutton" Content="Laske" HorizontalAlignment="Left" Margin="565,206,0,0" VerticalAlignment="Top" Click="Laskebutton_Click" BorderBrush="#FF00F06D" Background="#33FFFFFF"/>
+        <TextBox x:Name="VAikkunaPAtextBox" HorizontalAlignment="Left" Margin="857,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="58" Width="147"/>
+        <TextBlock x:Name="ikkunaPatextBlock" HorizontalAlignment="Left" Margin="712,161,0,0" TextWrapping="Wrap" Text="Ikkunan pinta-ala:" VerticalAlignment="Top"/>
+        <TextBox x:Name="VAlasinPAtextBox" HorizontalAlignment="Left" Margin="854,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="150"/>
+        <TextBlock x:Name="lasinPAtextBlock" HorizontalAlignment="Left" Margin="712,251,0,0" TextWrapping="Wrap" Text="Lasin pinta-ala:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="karmipiiritextBlock" HorizontalAlignment="Left" Margin="712,337,0,0" TextWrapping="Wrap" Text="Karmin piiri:" VerticalAlignment="Top"/>
+        <TextBox x:Name="VAkarmipiiritextBox" HorizontalAlignment="Left" Margin="857,296,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
     </Grid>
 </Page>

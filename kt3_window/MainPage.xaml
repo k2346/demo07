@@ -12,14 +12,14 @@
         <TextBlock x:Name="leveysTextBlock" HorizontalAlignment="Left" Margin="126,157,0,0" TextWrapping="Wrap" Text="Ikkunan leveys (L):" VerticalAlignment="Top"/>
         <TextBox x:Name="ikkunanKorkeusTextBox" HorizontalAlignment="Left" Margin="263,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
         <TextBlock x:Name="korkeusTextBlock" HorizontalAlignment="Left" Margin="126,247,0,0" TextWrapping="Wrap" Text="Ikkunan korkeus (H):" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="263,296,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="61" Width="147"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="126,337,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="653,331,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="997,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="32" Width="147"/>
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="871,100,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="997,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="39" Width="147"/>
-        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="871,161,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="871,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="997,216,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="27" Width="144"/>
+        <TextBox x:Name="karmipuuleveystextBox" HorizontalAlignment="Left" Margin="263,296,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="147"/>
+        <TextBlock x:Name="karmipuunleveystextBlock" HorizontalAlignment="Left" Margin="126,337,0,0" TextWrapping="Wrap" Text="Karmipuun leveys (W:):" VerticalAlignment="Top"/>
+        <Button x:Name="Laskebutton" Content="Laske" HorizontalAlignment="Left" Margin="653,331,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ikkunaPAtextBox" HorizontalAlignment="Left" Margin="997,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="147"/>
+        <TextBlock x:Name="ikkunanPatextBlock" HorizontalAlignment="Left" Margin="871,100,0,0" TextWrapping="Wrap" Text="Ikkunan pinta-ala:" VerticalAlignment="Top"/>
+        <TextBox x:Name="lasinPAtextBox" HorizontalAlignment="Left" Margin="997,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="147"/>
+        <TextBlock x:Name="lasinPAtextBlock" HorizontalAlignment="Left" Margin="871,161,0,0" TextWrapping="Wrap" Text="Lasin pinta-ala:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="karminpiiritextBlock" HorizontalAlignment="Left" Margin="871,228,0,0" TextWrapping="Wrap" Text="Karmin piiri:" VerticalAlignment="Top"/>
+        <TextBox x:Name="karminpiiritextBox" HorizontalAlignment="Left" Margin="997,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="27" Width="144"/>
     </Grid>
 </Page>
